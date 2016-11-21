@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<familyset>
+
+    <family>
+        <nameset>
+            <name>neotricc</name>
+            <name>owlFont</name>
+        </nameset>
+        <fileset>
+            <file>neotricc_r.ttf</file>
+            <file>neotricc_bold.ttf</file>
+        </fileset>
+    </family>
+</familyset>

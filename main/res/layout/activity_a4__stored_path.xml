@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_a4__stored_path"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_t"
+    tools:context="com.owl.Activity.A4_StoredPathActivity">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:text="History"
+        android:textSize="50sp"
+        android:layout_marginStart="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:background="@color/white"
+        android:layout_below="@id/titleText"
+        android:layout_marginEnd="150dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+    <ListView
+        android:layout_below="@+id/titleText"
+        android:id="@+id/pathListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
